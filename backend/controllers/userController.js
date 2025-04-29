@@ -3,6 +3,7 @@ import Bill from '../models/billingModel.js';
 import jwt from 'jsonwebtoken';
 import mongoose from 'mongoose';
 
+
 // generate tokens
 const createTokens = ({ _id, role }) => {
   return jwt.sign({ _id, role }, process.env.SECRET, { expiresIn: '3d' });
