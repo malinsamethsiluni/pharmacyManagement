@@ -6,7 +6,8 @@ const router = express.Router()
 
 //get all workouts
 router.get('/', getComments)
- 
+
+
 
  //get a single workout
  router.get('/:id', getComment) 

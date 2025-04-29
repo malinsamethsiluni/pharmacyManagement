@@ -5,6 +5,7 @@ import { loginUser, getUser, signupUser,getUsers,createCoupon,getCoupons,deleteC
 
 const router = express.Router();
 
+
 // login route
 router.post('/login', loginUser)
 
