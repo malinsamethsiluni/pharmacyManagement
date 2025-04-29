@@ -13,6 +13,7 @@ export const getabtoutofstock = async (req, res)=>{
 
 }
 
+
 // export const getDrugNameById = async (req, res) => {
 //   const { id } = req.params;
 
