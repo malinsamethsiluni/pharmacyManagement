@@ -8,6 +8,7 @@
 // router.get('/', getabtoutofstock)
 
 
+
 // export default router;
 import express from 'express';
 import { getabtoutofstock} from '../controllers/abtoutofstockController.js';
